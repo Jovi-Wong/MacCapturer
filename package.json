@@ -1,0 +1,36 @@
+{
+  "name": "mac-audio-capturer",
+  "version": "1.0.0",
+  "description": "Real-time system audio capture using ScreenCaptureKit for macOS",
+  "main": "node_example.js",
+  "scripts": {
+    "build": "./build.sh",
+    "test": "node test.js",
+    "test-swift": "./build/MacCapturer",
+    "example": "node node_interface.js"
+  },
+  "keywords": [
+    "audio",
+    "capture",
+    "macos",
+    "screencapturekit",
+    "pcm",
+    "real-time"
+  ],
+  "author": "jovi",
+  "license": "MIT",
+  "dependencies": {
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}
